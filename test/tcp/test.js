@@ -31,7 +31,7 @@ client.request({
   unit: 1, // Slave ID
   func: modbustcp.Functions.ReadCoils, // MODBUS function code
   address: 0, // 0-65535
-  count: 1,
+  count: 16,
   //type: modbustcp.DataTypes.Int16,
   response: function(err, res) {
     if (err) {

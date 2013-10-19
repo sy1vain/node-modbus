@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "debug": "0.7.x",
-    "async": "0.2.x"
+    "async": "0.2.x",
+    "buffers": "0.1.x",
+    "binary": "0.3.x",
+    "bufferput": "0.1.x"
   },
   "devDependencies": {
     "mocha": "1.13.x"
