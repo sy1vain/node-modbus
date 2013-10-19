@@ -1,0 +1,25 @@
+{
+  "name": "modbus",
+  "version": "0.1.0",
+  "author": "Berk Demirkır <berk.demirkir@ries.com.tr>",
+  "description": "Extensive MODBUS Library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdemirkir/modbus"
+  },
+  "dependencies": {
+    "debug": "0.7.x",
+    "async": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "1.13.x"
+  },
+  "main": "lib/main.js",
+  "engines": {
+    "node": ">=0.8.24"
+  },
+  "scripts": {
+    "pretest": "jshint .",
+    "test": "mocha"
+  }
+}
