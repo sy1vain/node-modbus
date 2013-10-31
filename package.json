@@ -1,5 +1,5 @@
 {
-  "name": "modbus",
+  "name": "node-modbus",
   "version": "0.1.0",
   "author": "Berk Demirkır <berk.demirkir@ries.com.tr>",
   "description": "Extensive MODBUS Library",
