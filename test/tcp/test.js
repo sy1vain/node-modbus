@@ -30,9 +30,10 @@ var client = modbus.tcp.connect({
 setInterval(function() {
   client.request({
     unit: 1, // Slave ID
-    func: modbus.Functions.READ_HOLDING_REGISTERS, // MODBUS function code
+    func: modbus.Functions.WRITE_SINGLE_REGISTER, // MODBUS function code
     address: 0, // 0-65535
-    count: 10,
+    value: 22,
+    //count: 10,
     //type: modbustcp.DataTypes.Int16,
     response: function(err, res) {
       if (err) {
