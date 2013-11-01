@@ -2,10 +2,10 @@
   "name": "node-modbus",
   "version": "0.1.0",
   "author": "Berk Demirkır <berk.demirkir@ries.com.tr>",
-  "description": "Extensive MODBUS Library",
+  "description": "NodeJS implementation of MODBUS protocol",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bdemirkir/modbus"
+    "url": "https://github.com/bdemirkir/node-modbus"
   },
   "dependencies": {
     "debug": "0.7.x",
@@ -20,7 +20,7 @@
   },
   "main": "lib/index.js",
   "engines": {
-    "node": ">=0.8.24"
+    "node": ">=0.10"
   },
   "scripts": {
     "pretest": "jshint .",
